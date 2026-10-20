@@ -1,0 +1,17 @@
+{
+  "name": "control-de-gastos",
+  "version": "1.0.0",
+  "description": "Sistema web para registrar y controlar pagos pendientes, vencidos y pagados (PMV).",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}
